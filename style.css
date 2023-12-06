@@ -1,0 +1,84 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.section-title {
+    font-family: 'PT Serif', serif;
+    color: #ffff;
+    font-size: xx-large;
+}
+
+.navbar {
+    background-color: #7f573b;
+}
+
+.nav .nav-link.active {
+    background-color: #ffff;
+    color: #7f573b;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #ffff;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+}
+
+.navbar-toggler {
+    background-color: #7f573b;
+    color: #ffff;
+}
+
+#capa {
+    text-align: center;
+    background: radial-gradient(circle at center bottom, #d7b18c 5%, #7f573b 70%);
+    height: 100%;
+}
+
+.imagem-capa {
+    max-width: 100%;
+    transition: transform 0.5s ease;
+    display: inline-block;
+    bottom: 0;
+    transform-origin: center bottom;
+}
+
+.imagem-capa:hover {
+    transform: scale(1.05);
+}
+
+#sobre-mim{
+    background-image: url(src/images/semFundo/conceito-de-saude.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#sobre-mim::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(215, 177, 140, 0.9);
+    z-index: 0;
+}
+
+.sobre-mim-imagem-container {
+    position: relative;
+    z-index: 2;
+}
+
+.sobre-mim-imagem {
+    max-height: 500px;
+    border-radius: 10px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.sobre-mim-texto {
+    z-index: 1;
+}

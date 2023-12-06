@@ -2,135 +2,85 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CW - Medicina da família</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <title>Dr. Carolina Weinfurter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="navbar navbar-expand-lg sticky-top pt-3">
         <div class="container">
-            <img class="logo" src="./imagens/LOGO.png" alt="logo carolina weinfurter" />
-            <div id="page-tittle">
-                <h1>Dra. Carolina Weinfurter</h1>
-                <h3>MEDICINA DE FAMÍLIA - CRM-SC 18681</h3>
-            </div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#about-me">Sobre</a>
-                        </li>
-                        <li>
-                            <a href="#family-medicine">Medicina</a>
-                        </li>
-                    </ul>
-                </nav>
-                <button href="contact" title="Contato">Contato</button>
+            <h1 class="navbar-brand m-0 section-title">Dr. Carolina E. Weinfurter</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active" href="">
+                            <i class="bi bi-file-person me-1"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="">
+                            <i class="bi bi-heart-pulse me-1"></i>
+                            Medicida de Família
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="">
+                            <i class="bi bi-moon-stars-fill me-1"></i>
+                            Medicina do Sono
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="">
+                            <i class="bi bi-postcard-heart me-1"></i>
+                            Fale comigo
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
-
-    <section id="about-me">
+    <section id="capa">
         <div class="container">
-            <img class="carolina-img" src="./imagens/sobre-mim.jpg" alt="Carolina Weinfurter" />
-            <div>
-                <div id="text-about">   
-                    <h2>Sobre mim</h2>
-                    <p>
-                        Escolhi a medicina da família por ser uma especialidade que segue o método centrado na pessoa, abordando todas as áreas da saúde, incluindo o acompanhamento de doenças crônicas e saúde mental.
+            <img src="src/images/semFundo/pic1.png" alt="Carolina Weinfurter" srcset="" class="imagem-capa">
+        </div>
+    </section>
+    <section id="sobre-mim" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row animate__animated animate__slideInUp animate__slow">
+                <div class="col-md-3 sobre-mim-imagem-container">
+                    <img src="src/images/semFundo/pic3.png" class="d-block h-100 sobre-mim-imagem" alt="Carolina Weinfurter">
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-7 pt-5 sobre-mim-texto">
+                    <h2 class="section-title pt-5 sobre-mim-titulo">
+                        Sobre mim
+                    </h2>
+                    <p class="pt-3">
+                        - graduada em medicina pela universade...
                     </p>
-                    <p>
-                        Sou graduada em Medicina pela Universidade da Região de Joinville desde 2012 e realizei  Residência Médica em Medicina de Família e Comunidade pela Secretaria Municipal de Saúde do Rio de Janeiro.
+                    <p class="pt-3">
+                        - residência em medicina de família …
+                    </p>  
+                    <p class="pt-3">
+                        - pós graduação em sono
                     </p>
-                    <p>
-                        Atualmente atuo como professora do curso de Medicina da Unisul Pedra Branca na área de Clínica Médica e realizo pós graduação em Medicina do Sono pelo Hospital Albert Einstein.
+                    <p class="pt-3">
+                        - professora da faculdade de medicina da Unisul
                     </p>
                 </div>
             </div>
         </div>
     </section>
-
-    <section id="family-medicine">
-        <div class="container">
-            <div id="text-family">
-                <h2>Medicina de família,</h2>
-                <h1>O que é?</h1>
-                <p>
-                    A medicina de família é uma especialidade médica que tem como objetivo oferecer cuidados de saúde abrangentes e contínuos a indivíduos e famílias. Os médicos de família são treinados para tratar uma ampla gama de problemas de saúde, desde problemas agudos e crônicos até questões de saúde mental e bem-estar geral.
-                </p>
-                <p>
-                    Os médicos de família trabalham para compreender as necessidades e preferências de cada paciente, e se concentram em estabelecer um relacionamento de confiança e parceria com seus pacientes. Eles se preocupam com a prevenção de doenças e incentivam estilos de vida saudáveis, além de gerenciar doenças crônicas e tratar problemas agudos de saúde.
-                </p>
-                <p>
-                    Os médicos de família também coordenam o cuidado de seus pacientes com outros profissionais de saúde, como especialistas e profissionais de enfermagem, quando necessário. Eles são treinados para trabalhar com indivíduos de todas as idades e com pessoas que enfrentam desafios de saúde complexos.
-                </p>
-                <p>
-                    Além de fornecer cuidados de saúde diretos aos pacientes, os médicos de família também têm um papel fundamental no sistema de saúde em geral, contribuindo para a prevenção de doenças, a promoção da saúde e a melhoria da qualidade dos cuidados de saúde.
-                </p>
-            </div>
-            <div id="text-services">
-                <h1>Serviços</h1>
-                <ul>
-                    <li>Acompanhamento de doenças crônicas</li>
-                    <li>Tratamento da insônia</li>
-                    <li>Tratamento da depressão</li>
-                    <li>Tratamento da ansiedade</li>
-                    <li>Tratamento de Hipertensão</li>
-                    <li>Tratamento da Diabetes</li>
-                    <li>Tratamento de infecções comuns</li>
-                    <li>Tratamento do Hipotireoidismo</li>
-                    <li>Inserção de DIU</li>
-                    <li>Lavagem de ouvido</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <div class="contact-methods">
-                <div>
-                    <h3>Entre em contato</h3>
-                    <form>
-                        <input type="text" placeholder="Seu nome" required />
-                        <input type="email" placeholder="Seu e-mail" required  />
-                        <input type="tel" placeholder="Seu telefone (opcional)" />
-                        <textarea placeholder="Sua mensagem" required></textarea>
-                        <button type="submit">Enviar</button>
-                    </form>
-                </div>
-                <div>
-                    <h3>Agende sua consulta</h3>
-                    <ul class="social-links">
-                        <li>
-                            <a href="https://www.instagram.com/dra.carolinaweinfurter/" title="Siga-nos no Instagram">
-                                <img src="./imagens/instagram.png" alt="logo instagram" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://api.whatsapp.com/send?phone=554791534943&text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%21" title="Agende comigo através do Whatsapp">
-                                <img src="./imagens/whatsapp.png" alt="logo Whatsapp" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Local de antendimento</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.0387828760404!2d-48.54468910000001!3d-27.592327200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527383c3e09223b%3A0xf10004b045549285!2sR.%20Em%C3%ADlio%20Blum%2C%20131%20-%20201a%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088020-010!5e0!3m2!1spt-BR!2sbr!4v1676498112238!5m2!1spt-BR!2sbr" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>
-                &copy; Carolina Weinfurter - Todos os direitos reservados - 2023
-            </p>
-        </div>
-    </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
