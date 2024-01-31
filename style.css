@@ -18,12 +18,12 @@ body {
 }
 
 .logo {
-    max-height: 200px;
+    max-height: 100px;
 }
 
 .navbar-brand {
     color:black;
-    font-size: 32px;
+    font-size: 34px;
     padding: 0;
     margin: 0;
 }
@@ -32,13 +32,14 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .subtitle2 {
     text-align: center;
     padding: 0;
     margin: 0;
+    font-size: 24px;
 }
 
 .nav .nav-link,
@@ -56,14 +57,26 @@ body {
 #capa {
     text-align: center;
     background: linear-gradient(to bottom, #D8afaf 5%, #fad7d7 70%);
-    height: 100%;
+    height: 100vh;
+}
+
+.capa-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.texto-capa {
+    flex: 1; /* Cresce para ocupar o espaço disponível */
+    text-align: left; /* Alinha o texto à direita */
 }
 
 .imagem-capa {
     max-width: 100%;
     transition: transform 0.5s ease;
-    display: inline-block;
-    bottom: 0;
     transform-origin: center bottom;
 }
 
@@ -72,7 +85,7 @@ body {
 }
 
 #sobre-mim {
-    background-color: #D8afaf;
+    background-color: #fad7d7;
     z-index: 0;
 }
 
@@ -86,6 +99,10 @@ body {
     border-radius: 10px;
     display: inline-block;
     z-index: 2;
+}
+
+.sobre-mim-titulo {
+    color: #000000;
 }
 
 .sobre-mim-texto {
